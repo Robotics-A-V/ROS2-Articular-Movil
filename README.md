@@ -1,4 +1,4 @@
-## Introducción a ROS y Coppeliasim
+## Introducción a ROS2 
 
 Este repositorio contiene una serie de instrucciones para abordar la programación de robots con ROS2.
 
@@ -21,13 +21,13 @@ Este repositorio contiene una serie de instrucciones para abordar la programaci�
 # 0. Prerrequisitos
 # 0.1 Instalación de Ubuntu
 
-Para el funcionamiento de ROS es necesario instalar Ubuntu, para el actual repositorio se usará Ubuntu 20 y ROS NOETIC.
+Para el funcionamiento de ROS2 es necesario instalar Ubuntu, para el actual repositorio se usará Ubuntu 22.3.04 LTS y ROS NOETIC.
 
-Imagen ISO (ubuntu-20.04.6-desktop-amd64.iso): [Descarga](https://releases.ubuntu.com/focal/)
+Imagen ISO (ubuntu-20.04.4-desktop-amd64.iso): [Descarga](https://releases.ubuntu.com/22.04/)
 
 Opción Máquina Virtual:[Tutorial](./Doc/0-Maquina-Virtual.md)
 
-Opcion Partición del disco (Cambiar por la Iso 20.04): [Tutorial](https://www.youtube.com/watch?v=_d6oT7rEoGc)
+Opcion Partición del disco (Cambiar por la Iso 22.04.4): [Tutorial](https://www.youtube.com/watch?v=_d6oT7rEoGc)
 
 Verificación de instalación de Python
 
