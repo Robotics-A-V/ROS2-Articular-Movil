@@ -5,19 +5,11 @@ Este repositorio contiene una serie de instrucciones para abordar la programaci�
 # Contenido
 * [0. Prerrequisitos ](#0-Prerrequisitos )
     * [0.1 Instalación de Ubuntu](#01-Instalación-de-Ubuntu)
-    * [0.2 Instalación de ROS](#02-Instalación-de-ROS)
+    * [0.2 Ubuntu para robótica](#02-Ubuntu-y-Robotica)
+    * [0.3 Instalación de ROS2](#03-Instalación-de-ROS)
+    * [0.4 GitHub](#04-GitHub)
 * [1. Introducción](#1-Introducción)
-* [2. GitHub y ROS  ](#2-GitHub-y-ROS )
-* [3. Paquetes y Nodos ](#3-Paquetes-y-Nodos)
-* [4. Comunicación entre Nodos](#4-Comunicación-entre-Nodos)
-    * [4.1 Estructura de mensajes](#Mensajes)
-    * [4.2 Mensajes Propios](#Mensajes-propios)
-* [5. Servicios y Acciones](#5-Servicios-y-Acciones)
-* [6. Robot 3 GDL y RViz](#6-Robot-3-GDL-y-RViz)
-* [7. Comunicación con dispositivos](#7-Comunicación-con-dispositivos)
-* [8. Rviz MoveiT](#8-Rviz-MoveiT)
-* [9. Coppeliasim](#9-Coppeliasim)
-  
+* 
 # 0. Prerrequisitos
 # 0.1 Instalación de Ubuntu
 
@@ -35,3 +27,6 @@ Ejecuto en la terminal
 ```
 python3 --version
 ```
+# 0.2 Ubuntu para robótica
+
+El manejo de la terminal de ubuntu es escencial para poder realizar proyectos de robótica que involucren el uso de ROS2.
