@@ -5,7 +5,7 @@ Este repositorio contiene una serie de instrucciones para abordar la programaci�
 # Contenido
 * [0. Prerrequisitos ](#0-Prerrequisitos )
     * [0.1 Instalaci처n de Ubuntu](#01-Instalaci처n-de-Ubuntu)
-    * [0.2 Ubuntu para rob처tica](#02-Ubuntu-y-Robotica)
+    * [0.2 Ubuntu y ROS2](#02-Ubuntu-y-ROS2)
     * [0.3 Instalaci처n de ROS2](#03-Instalaci처n-de-ROS)
     * [0.4 GitHub](#04-GitHub)
 * [1. Introducci처n](#1-Introducci처n)
@@ -27,6 +27,6 @@ Ejecuto en la terminal
 ```
 python3 --version
 ```
-# 0.2 Ubuntu para rob처tica
+# 0.2 Ubuntu y ROS2
 
 El manejo de la terminal de ubuntu es escencial para poder realizar proyectos de rob처tica que involucren el uso de ROS2.
