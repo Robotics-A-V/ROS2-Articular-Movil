@@ -13,9 +13,9 @@ Este repositorio contiene una serie de instrucciones para abordar la programaci�
 # 0. Prerrequisitos
 # 0.1 Instalación de Ubuntu
 
-Para el funcionamiento de ROS2 es necesario instalar Ubuntu, para el actual repositorio se usará Ubuntu 22.3.04 LTS y ROS NOETIC.
+Para el funcionamiento de ROS2 es necesario instalar Ubuntu, para el actual repositorio se usará Ubuntu 22.4.04 LTS y ROS2 .
 
-Imagen ISO (ubuntu-20.04.4-desktop-amd64.iso): [Descarga](https://releases.ubuntu.com/22.04/)
+Imagen ISO (ubuntu-22.04.4-desktop-amd64.iso): [Descarga](https://releases.ubuntu.com/22.04/)
 
 Opción Máquina Virtual:[Tutorial](./Doc/0-Maquina-Virtual.md)
 
