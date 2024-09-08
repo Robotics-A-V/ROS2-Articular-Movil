@@ -17,7 +17,7 @@ Para el funcionamiento de ROS2 es necesario instalar Ubuntu, para el actual repo
 
 Imagen ISO (ubuntu-22.04.4-desktop-amd64.iso): [Descarga](https://releases.ubuntu.com/22.04/)
 
-Opción Máquina Virtual:[Tutorial](./Doc/0-Maquina-Virtual.md)
+Opción Máquina Virtual:[Tutorial](./clases/0-Maquina-Virtual.md)
 
 Opcion Partición del disco (Cambiar por la Iso 22.04.4): [Tutorial](https://www.youtube.com/watch?v=_d6oT7rEoGc)
 
