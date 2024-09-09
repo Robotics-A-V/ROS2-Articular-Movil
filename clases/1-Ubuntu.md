@@ -11,13 +11,13 @@ Aquí algunos comandos fundamentales que debes dominar:
 
 1. Gestión de archivos y directorios:
 * ls: Lista archivos y directorios.
-Ejemplo:
 ```
-ls -l #muestra una lista detallada con permisos, propietarios, tamaño, etc.
+ls -l # muestra una lista detallada con permisos, propietarios, tamaño, etc.
 ```
 * cd: Cambia de directorio.
-Ejemplo: cd /home/usuario te lleva al directorio del usuario.
-
+```
+cd /home/usuario # te lleva al directorio del usuario.
+```
 * mkdir: Crea un nuevo directorio.
 Ejemplo: mkdir nuevo_directorio.
 
