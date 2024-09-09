@@ -6,7 +6,7 @@ Este repositorio contiene una serie de instrucciones para abordar la programaci�
 * [0. Prerrequisitos ](#0-Prerrequisitos )
     * [0.1 Instalaci처n de Ubuntu](#01-Instalaci처n-de-Ubuntu)
     * [0.2 Ubuntu y ROS2](#02-Ubuntu-y-ROS2)
-    * [0.3 Instalaci처n de ROS2](#03-Instalaci처n-de-ROS)
+    * [0.3 Instalaci처n de ROS2](#03-Instalaci처n-de-ROS2)
     * [0.4 GitHub](#04-GitHub)
 * [1. Introducci처n](#1-Introducci처n)
 * 
