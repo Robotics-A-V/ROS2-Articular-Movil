@@ -13,13 +13,13 @@ Aquí algunos comandos fundamentales que debes dominar:
 * ls: Lista archivos y directorios.
 Ejemplo: ls -l muestra una lista detallada con permisos, propietarios, tamaño, etc.
 
-*cd: Cambia de directorio.
+* cd: Cambia de directorio.
 Ejemplo: cd /home/usuario te lleva al directorio del usuario.
 
-*mkdir: Crea un nuevo directorio.
+* mkdir: Crea un nuevo directorio.
 Ejemplo: mkdir nuevo_directorio.
 
-*rm: Elimina archivos o directorios.
+* rm: Elimina archivos o directorios.
 Ejemplo: rm archivo.txt elimina el archivo archivo.txt. rm -r carpeta elimina una carpeta y su contenido.
 
 *cp: Copia archivos o directorios.
