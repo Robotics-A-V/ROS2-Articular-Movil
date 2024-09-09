@@ -1,8 +1,11 @@
 # Ubuntu
 
 Para manejar de una forma más eficiente las distintas configuraciones de ROS2 es necesario conocer conceptos básicas de ubuntu, a continuación se detallan una serie de comandos e información que serán importantes para la continuación del curso.
+
 La siguiente bibliogradía aborda el uso básico de linux 
+
 [Linux Essentials](https://learning.lpi.org/es/learning-materials/010-160/)
+
 [Web Development Essentials](https://learning.lpi.org/es/learning-materials/030-100/)
 
 Entendiendo los comandos básicos de ubuntu.
