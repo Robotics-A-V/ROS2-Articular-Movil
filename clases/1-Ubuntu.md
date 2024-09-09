@@ -30,65 +30,84 @@ rm archivo.txt # elimina el archivo archivo.txt.
 ```
 rm -r carpeta # elimina una carpeta y su contenido.
 ```
-*cp: Copia archivos o directorios.
+* cp: Copia archivos o directorios.
 ```
 cp archivo1.txt archivo2.txt # copia el archivo archivo1.txt en archivo2.txt.
 ```
-*mv: Mueve o renombra archivos y directorios.
+* mv: Mueve o renombra archivos y directorios.
 ```
 mv archivo.txt /ruta/destino # mueve un archivo a una nueva ubicación.
 ```
 2. Permisos y gestión de usuarios:
 
-*chmod: Cambia los permisos de archivos y directorios.
-Ejemplo: chmod 755 archivo.sh otorga permisos de lectura, escritura y ejecución al propietario, y solo lectura y ejecución al resto.
+* chmod: Cambia los permisos de archivos y directorios.
+```
+chmod 755 archivo.sh # otorga permisos de lectura, escritura y ejecución al propietario, y solo lectura y ejecución al resto.
+```
+* chown: Cambia el propietario de archivos o carpetas.
+```
+chown usuario:grupo archivo.txt.
+```
 
-*chown: Cambia el propietario de archivos o carpetas.
-Ejemplo: chown usuario:grupo archivo.txt.
-
-*sudo: Ejecuta comandos como superusuario (administrador).
-Ejemplo: sudo apt update actualiza los paquetes del sistema con permisos de administrador.
+* sudo: Ejecuta comandos como superusuario (administrador).
+```
+sudo apt update # actualiza los paquetes del sistema con permisos de administrador.
+```
 3. Gestión de procesos:
 
-*ps: Muestra los procesos activos.
-Ejemplo: ps aux lista todos los procesos.
+* ps: Muestra los procesos activos.
+```
+ps aux # lista todos los procesos.
+```
+* top: Muestra los procesos en ejecución y su uso de recursos.
 
-*top: Muestra los procesos en ejecución y su uso de recursos.
-
-*kill: Termina un proceso específico.
-Ejemplo: kill 1234 termina el proceso con el PID 1234.
-
+* kill: Termina un proceso específico.
+```
+kill 1234 # termina el proceso con el PID 1234.
+```
 4. Instalación de paquetes y software:
 
-*apt: Usado para gestionar paquetes en distribuciones basadas en Debian (como Ubuntu).
-Ejemplo: sudo apt install ros-humble-desktop instala la versión Humble de ROS2.
+* apt: Usado para gestionar paquetes en distribuciones basadas en Debian (como Ubuntu).
+```
+sudo apt install ros-humble-desktop instala la versión Humble de ROS2.
+```
 
-*snap: Sistema para instalar paquetes universales.
-Ejemplo: sudo snap install nombre_paquete.
-
+* snap: Sistema para instalar paquetes universales.
+```
+sudo snap install nombre_paquete.
+```
 5. SSH (Secure Shell):
 ¿Qué es SSH?: SSH permite acceso remoto seguro a otra máquina, útil cuando trabajas con robots o servidores de manera remota.
-
-ssh usuario@ip_del_servidor: Conecta a un servidor remoto.
-
-Ejemplo: ssh usuario@192.168.1.100 conecta a una máquina con esa IP.
-
-*Transferir archivos vía SSH (SCP):
-
-scp archivo.txt usuario@192.168.1.100:/ruta/destino: Copia archivos a una máquina remota.
-
+estructura:  ssh usuario@ip_del_servidor # Conecta a un servidor remoto.
+```
+ssh usuario@192.168.1.100  # conecta a una máquina con esa IP.
+```
+* Transferir archivos vía SSH (SCP):
+```
+scp archivo.txt usuario@192.168.1.100:/ruta/destino  # Copia archivos a una máquina remota.
+```
 6. Gestión de red:
-*ifconfig: Muestra la configuración de red.
+* ifconfig: Muestra la configuración de red.
 
-*ping: Prueba la conexión a otra máquina.
-Ejemplo: ping google.com verifica si hay conexión con Google.
-netstat: Muestra las conexiones de red activas.
+* ping: Prueba la conexión a otra máquina.
+```
+ping google.com # verifica si hay conexión con Google.
+```
+* netstat: Muestra las conexiones de red activas.
 
 *Firewall:
 Configurar el firewall es esencial para habilitar o restringir puertos específicos, sobre todo al usar ROS o ROS2 en redes.
 
 UFW (Uncomplicated Firewall): Firewall básico en Ubuntu.
-sudo ufw status: Ver el estado del firewall.
-sudo ufw enable: Habilitar el firewall.
-sudo ufw allow 22: Permitir conexiones SSH (puerto 22).
-sudo ufw allow 11311: Permitir conexiones en el puerto que usa ROS.
+```
+sudo ufw status #Ver el estado del firewall.
+```
+```
+sudo ufw enable #Habilitar el firewall.
+```
+```
+sudo ufw allow 22 #Permitir conexiones SSH (puerto 22).
+```
+```
+sudo ufw allow 11311 #Permitir conexiones en el puerto que usa ROS.
+```
