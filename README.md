@@ -30,3 +30,4 @@ python3 --version
 # 0.2 Ubuntu y ROS2
 
 El manejo de la terminal de ubuntu es escencial para poder realizar proyectos de robótica que involucren el uso de ROS2.
+[Tutorial](./clases/1-Ubuntu.md)
