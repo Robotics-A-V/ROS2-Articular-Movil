@@ -46,7 +46,7 @@ chmod 755 archivo.sh # otorga permisos de lectura, escritura y ejecución al pro
 ```
 * chown: Cambia el propietario de archivos o carpetas.
 ```
-chown usuario:grupo archivo.txt.
+chown usuario # grupo archivo.txt.
 ```
 
 * sudo: Ejecuta comandos como superusuario (administrador).
@@ -69,7 +69,7 @@ kill 1234 # termina el proceso con el PID 1234.
 
 * apt: Usado para gestionar paquetes en distribuciones basadas en Debian (como Ubuntu).
 ```
-sudo apt install ros-humble-desktop instala la versión Humble de ROS2.
+sudo apt install ros-humble-desktop # instala la versión Humble de ROS2.
 ```
 
 * snap: Sistema para instalar paquetes universales.
