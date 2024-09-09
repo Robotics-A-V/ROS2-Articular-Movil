@@ -40,6 +40,15 @@ Finalizo la configuración
 Arrancar Máquina virtual - Al iniciar la máquina de forma automática comenzará la instalación
 
 ![Seleccion](../images/0-VB9.jpeg)
+
+Finalmente ingresar en la consola y ejecutar los comandos:
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
+
 ***Posibles Errores*** -
 
 1. Al momento de ejecutar la máquina virtual
@@ -53,4 +62,12 @@ NOT IN A HYPERVISOR PARTITION (HVP =0 ) [solucion](https://www.youtube.com/watch
 para este ejemplo el usuario de ubuntu se llama ubuntuROS por lo tanto en la terminal se deberá colocar el comando:
 ```
 sudo usermod -aG sudo ubuntuROS
+```
+reiniciar el equipo y verificar que pueda actualizar el sistema:
+
+```
+sudo apt update
+```
+```
+sudo apt upgrade
 ```
