@@ -16,20 +16,28 @@ ls -l # muestra una lista detallada con permisos, propietarios, tamaño, etc.
 ```
 * cd: Cambia de directorio.
 ```
-cd /home/usuario # te lleva al directorio del usuario.
+cd /home/ # te lleva al directorio Home.
 ```
 * mkdir: Crea un nuevo directorio.
-Ejemplo: mkdir nuevo_directorio.
+```
+mkdir nuevo_directorio.
+```
 
 * rm: Elimina archivos o directorios.
-Ejemplo: rm archivo.txt elimina el archivo archivo.txt. rm -r carpeta elimina una carpeta y su contenido.
-
+```
+rm archivo.txt # elimina el archivo archivo.txt.
+```
+```
+rm -r carpeta # elimina una carpeta y su contenido.
+```
 *cp: Copia archivos o directorios.
-Ejemplo: cp archivo1.txt archivo2.txt copia el archivo archivo1.txt en archivo2.txt.
-
+```
+cp archivo1.txt archivo2.txt # copia el archivo archivo1.txt en archivo2.txt.
+```
 *mv: Mueve o renombra archivos y directorios.
-Ejemplo: mv archivo.txt /ruta/destino mueve un archivo a una nueva ubicación.
-
+```
+mv archivo.txt /ruta/destino # mueve un archivo a una nueva ubicación.
+```
 2. Permisos y gestión de usuarios:
 
 *chmod: Cambia los permisos de archivos y directorios.
