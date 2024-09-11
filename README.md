@@ -33,3 +33,18 @@ El manejo de la terminal de ubuntu es escencial para poder realizar proyectos de
 [Tutorial](./clases/1-Ubuntu.md)
 
 # 0.3 Instalación de ROS2
+
+Si deseas aprender sobre el uso de ROS Noetic visita el siguiente link [Ros-Noetic](https://github.com/Robotics-A-V/Curso-ROS-?tab=readme-ov-file#02-Instalaci%C3%B3n-de-ROS)
+
+La version que se va realizar para el curso de ROS2 es Humble, el soporte de Humble es hasta el a;o 2027. 
+
+Humble se puede instalar desde 2 formas, usando los paquetes deb o utilizando el codigo fuente:
+
+| Característica             | **Paquetes Debian (deb)**             | **Desde Fuentes (source)**      |
+|----------------------------|---------------------------------------|---------------------------------|
+| **Facilidad de instalación**| Muy fácil (`apt install`)             | Requiere descargar y compilar   |
+| **Velocidad de instalación**| Muy rápida                            | Más lenta, debido a la compilación |
+| **Flexibilidad**            | Limitada a las versiones oficiales    | Alta, puedes personalizar y modificar el código |
+| **Mantenimiento**           | Automático con actualizaciones de Ubuntu | Manual, debes recompilar al actualizar |
+| **Complejidad**             | Baja                                  | Alta, requiere manejo de dependencias y compilación |
+| **Recomendado para**        | Usuarios que buscan estabilidad y rapidez | Desarrolladores o usuarios avanzados |
