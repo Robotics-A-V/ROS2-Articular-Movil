@@ -48,3 +48,8 @@ Humble se puede instalar desde 2 formas, usando los paquetes deb o utilizando el
 | **Mantenimiento**           | Automático con actualizaciones de Ubuntu | Manual, debes recompilar al actualizar |
 | **Complejidad**             | Baja                                  | Alta, requiere manejo de dependencias y compilación |
 | **Recomendado para**        | Usuarios que buscan estabilidad y rapidez | Desarrolladores o usuarios avanzados |
+
+para el presente curso se utilizara la opcion de paquetes debian
+
+link oficial [ROS2-Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
+
