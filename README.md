@@ -56,7 +56,9 @@ link oficial [ROS2-Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-In
 Pasos para la instalacion:
 
 1. Set Locales
+   
 Los locales son un conjunto de parámetros que definen cómo un sistema operativo debe manejar ciertos aspectos regionales y culturales, como la representación de texto, formatos de fecha y hora, monedas, números, y otros elementos específicos de la localización geográfica o del idioma. Cada sistema operativo tiene una configuración de locales que asegura que el software y las interfaces funcionen correctamente en diferentes entornos culturales.
+
 El objetivo de esta sección es asegurarse de que tu sistema esté configurado para soportar UTF-8 antes de instalar ROS 2. Los siguientes comandos generalmente se usan para configurar las locales en un entorno basado en Ubuntu:
 ```
 locale  # check for UTF-8
@@ -68,4 +70,27 @@ export LANG=en_US.UTF-8
 
 locale  # verify settings
 ```
-3. 
+2. Fuentes de configuración
+
+Tendrá que añadir el repositorio ROS 2 apt a su sistema.
+
+Primero asegúdese de que el repositorio de Ubuntu Universe esté habilitado.
+```
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+```
+3. Configurar los repositorios de Ubuntu
+
+ROS 2 depende de algunas herramientas adicionales. Primero, debes asegurarte de que tu máquina esté completamente actualizada y tenga las herramientas necesarias.
+
+```
+sudo apt update && sudo apt install curl -y
+```
+4. Agregar la clave GPG para ROS 2:
+```
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+```
+5. Agregar el repositorio de ROS 2 Humble a tu lista de fuentes:
+```
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
