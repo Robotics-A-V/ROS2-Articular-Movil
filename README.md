@@ -86,11 +86,29 @@ ROS 2 depende de algunas herramientas adicionales. Primero, debes asegurarte de 
 ```
 sudo apt update && sudo apt install curl -y
 ```
-4. Agregar la clave GPG para ROS 2:
+ahora es necesario agregar la clave GPG para ROS 2:
 ```
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
-5. Agregar el repositorio de ROS 2 Humble a tu lista de fuentes:
+y agregar el repositorio de ROS 2 Humble a tu lista de fuentes:
 ```
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
+4. Instalar ROS 2 Humble
+Actualizar el indice de contenidos
+```
+sudo apt update
+```
+Actualizar el sistema
+```
+sudo apt upgrade
+```
+Instalacion de ROS HUMBLE
+```
+sudo apt install ros-humble-desktop
+```
+para poder utilizar las herramientas de construccion de paquetes es necesario instalar las herrmientas adicionales utilizando el siguietne comando 
+```
+sudo apt install ros-dev-tools
 ```
