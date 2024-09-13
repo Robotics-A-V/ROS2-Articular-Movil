@@ -53,3 +53,19 @@ para el presente curso se utilizara la opcion de paquetes debian
 
 link oficial [ROS2-Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 
+Pasos para la instalacion:
+
+1. Set Locales
+Los locales son un conjunto de parámetros que definen cómo un sistema operativo debe manejar ciertos aspectos regionales y culturales, como la representación de texto, formatos de fecha y hora, monedas, números, y otros elementos específicos de la localización geográfica o del idioma. Cada sistema operativo tiene una configuración de locales que asegura que el software y las interfaces funcionen correctamente en diferentes entornos culturales.
+El objetivo de esta sección es asegurarse de que tu sistema esté configurado para soportar UTF-8 antes de instalar ROS 2. Los siguientes comandos generalmente se usan para configurar las locales en un entorno basado en Ubuntu:
+```
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+```
+3. 
