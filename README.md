@@ -55,7 +55,7 @@ link oficial [ROS2-Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-In
 
 Pasos para la instalacion:
 
-1. Set Locales
+1. **Set Locales**
    
 Los locales son un conjunto de parámetros que definen cómo un sistema operativo debe manejar ciertos aspectos regionales y culturales, como la representación de texto, formatos de fecha y hora, monedas, números, y otros elementos específicos de la localización geográfica o del idioma. Cada sistema operativo tiene una configuración de locales que asegura que el software y las interfaces funcionen correctamente en diferentes entornos culturales.
 
@@ -70,7 +70,7 @@ export LANG=en_US.UTF-8
 
 locale  # verify settings
 ```
-2. Fuentes de configuración
+2. **Fuentes de configuración**
 
 Tendrá que añadir el repositorio ROS 2 apt a su sistema.
 
@@ -79,7 +79,7 @@ Primero asegúdese de que el repositorio de Ubuntu Universe esté habilitado.
 sudo apt install software-properties-common
 sudo add-apt-repository universe
 ```
-3. Configurar los repositorios de Ubuntu
+3. **Configurar los repositorios de Ubuntu**
 
 ROS 2 depende de algunas herramientas adicionales. Primero, debes asegurarte de que tu máquina esté completamente actualizada y tenga las herramientas necesarias.
 
@@ -95,7 +95,7 @@ y agregar el repositorio de ROS 2 Humble a tu lista de fuentes:
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 
-4. Instalar ROS 2 Humble
+4.**Instalar ROS 2 Humble**
 Actualizar el indice de contenidos
 ```
 sudo apt update
@@ -111,4 +111,19 @@ sudo apt install ros-humble-desktop
 para poder utilizar las herramientas de construccion de paquetes es necesario instalar las herrmientas adicionales utilizando el siguietne comando 
 ```
 sudo apt install ros-dev-tools
+```
+**5. Configurar el entorno de ROS 2**
+
+Para que ROS 2 funcione correctamente, debes agregar su entorno a tu terminal. Esto lo puedes hacer editando el archivo ~/.bashrc o ejecutando este comando en cada nueva terminal que abras:
+
+bash
+```
+source /opt/ros/humble/setup.bash
+```
+
+Para automatizarlo en futuras sesiones, agrega el comando anterior al final del archivo ~/.bashrc:
+
+```
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
