@@ -110,8 +110,12 @@ sudo apt install ros-humble-desktop
 ```
 para poder utilizar las herramientas de construccion de paquetes es necesario instalar las herrmientas adicionales utilizando el siguietne comando 
 ```
+sudo apt install python3-colcon-common-extensions
+```
+```
 sudo apt install ros-dev-tools
 ```
+
 **5. Configurar el entorno de ROS 2**
 
 Para que ROS 2 funcione correctamente, debes agregar su entorno a tu terminal. Esto lo puedes hacer editando el archivo ~/.bashrc o ejecutando este comando en cada nueva terminal que abras:
@@ -127,3 +131,18 @@ Para automatizarlo en futuras sesiones, agrega el comando anterior al final del 
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+**6. Verificar la instalación de ROS 2**
+
+Para asegurarte de que ROS 2 se instaló correctamente, puedes intentar correr un nodo de prueba. Primero, abre una terminal nueva y ejecuta:
+
+Luego, inicia una instancia del nodo talker (publicador):
+```
+ros2 run demo_nodes_cpp talker
+```
+Abre una nueva terminal, ejecuta nuevamente el source, y luego inicia una instancia del nodo listener (suscriptor):
+
+```
+ros2 run demo_nodes_cpp listener
+```
+Si todo está bien, verás mensajes del talker y listener interactuando en la terminal.
