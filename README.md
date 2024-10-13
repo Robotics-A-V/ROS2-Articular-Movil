@@ -177,4 +177,4 @@ GitHub facilita la publicación de documentación y guías de uso directamente e
 
 [Tutorial recomendado](https://www.youtube.com/watch?v=mBYSUUnMt9M&t=14612s)
 
-[***2-Comandos Básicos***](./Clases/2-comandos-github.md)
+[***2-Comandos Básicos***](./clases/2-Git-Hub.md)
