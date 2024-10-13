@@ -146,3 +146,35 @@ Abre una nueva terminal, ejecuta nuevamente el source, y luego inicia una instan
 ros2 run demo_nodes_cpp listener
 ```
 Si todo está bien, verás mensajes del talker y listener interactuando en la terminal.
+
+# 0.4 GiyHub
+
+GitHub y ROS (Robot Operating System) están estrechamente relacionados en el desarrollo de software robótico:
+
+1. **Alojamiento del Código**
+
+Los desarrolladores de ROS usan GitHub para almacenar y gestionar el código fuente de sus paquetes de ROS en repositorios públicos o privados.
+
+2. **Gestión de Dependencias** 
+
+GitHub permite organizar proyectos de ROS en múltiples repositorios y submódulos, facilitando la gestión de dependencias entre paquetes.
+
+3. **Colaboración**
+
+GitHub proporciona herramientas como pull requests e issues, esenciales para la colaboración en proyectos de ROS, permitiendo a los desarrolladores contribuir y mejorar el software colectivamente.
+
+4. **Versionado y Lanzamientos**
+
+Los proyectos de ROS utilizan GitHub para etiquetar versiones y crear lanzamientos, asegurando que los usuarios puedan acceder a versiones específicas y estables del software.
+
+5. **Integración Continua**
+
+Con servicios de CI como GitHub Actions, los desarrolladores de ROS pueden automatizar pruebas y compilaciones, garantizando la calidad del código antes de su integración.
+
+6. **Documentación**
+
+GitHub facilita la publicación de documentación y guías de uso directamente en los repositorios, complementando la wiki oficial de ROS.
+
+[Tutorial recomendado](https://www.youtube.com/watch?v=mBYSUUnMt9M&t=14612s)
+
+[***2-Comandos Básicos***](./Clases/2-comandos-github.md)
