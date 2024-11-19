@@ -147,7 +147,7 @@ ros2 run demo_nodes_cpp listener
 ```
 Si todo está bien, verás mensajes del talker y listener interactuando en la terminal.
 
-# 0.4 GiyHub
+# 0.4 GitHub
 
 GitHub y ROS (Robot Operating System) están estrechamente relacionados en el desarrollo de software robótico:
 
