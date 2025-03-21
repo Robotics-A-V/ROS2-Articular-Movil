@@ -1,134 +1,65 @@
-# Ubuntu
+# 🐧 Introducción a Ubuntu y Linux
 
-🐧 Introducción a Ubuntu y Linux
+## 📦 ¿Qué es Ubuntu?
 
-Ubuntu es una distribución del sistema operativo GNU/Linux basada en Debian. Es ampliamente utilizada por su estabilidad, seguridad, facilidad de uso y una comunidad activa. Ubuntu es ideal tanto para usuarios nuevos como para desarrolladores y administradores de sistemas.
+**Ubuntu** es una distribución del sistema operativo **GNU/Linux** basada en **Debian**. Es una de las distribuciones más populares por su facilidad de uso, estabilidad y fuerte comunidad. Se utiliza ampliamente en servidores, entornos de desarrollo, sistemas embebidos, ciencia y escritorios personales.
 
-🧱 Arquitectura de un sistema Linux
+---
 
-Un sistema Linux está compuesto por:
+## 🧱 Arquitectura básica de un sistema Linux
 
-Kernel: El núcleo del sistema operativo. Administra el hardware y los recursos.
+Un sistema Linux se compone de:
 
-Shell: Interfaz de línea de comandos para ejecutar instrucciones (bash, zsh).
+- **Kernel**: Núcleo del sistema que controla el hardware y gestiona los recursos.
+- **Shell**: Interfaz de línea de comandos para interactuar con el sistema (ej. `bash`).
+- **Sistema de archivos jerárquico**: Organización estructurada de todos los archivos y directorios.
+- **Servicios (Daemons)**: Procesos que corren en segundo plano (ej. `systemd`, `cron`).
+- **Usuarios y grupos**: Gestión de accesos y permisos de seguridad.
 
-Sistema de archivos: Organización jerárquica donde todo es un archivo.
+---
 
-Servicios/Daemons: Procesos que corren en segundo plano.
+## 🧩 Principales distribuciones de Linux
 
-Usuarios y Grupos: Controlan el acceso y la seguridad del sistema.
+| Distribución       | Basada en    | Enfoque principal                     |
+|--------------------|--------------|----------------------------------------|
+| **Ubuntu**         | Debian       | Escritorio, desarrollo, servidores     |
+| **Debian**         | Independiente| Estabilidad, servidores                |
+| **Fedora**         | Red Hat      | Últimas tecnologías, desarrolladores   |
+| **CentOS / Rocky** | Red Hat      | Servidores empresariales               |
+| **Arch Linux**     | Independiente| Control total, usuarios avanzados      |
+| **Linux Mint**     | Ubuntu       | Escritorio amigable para principiantes |
+| **Kali Linux**     | Debian       | Seguridad, pentesting                  |
 
-🧩 Distribuciones populares de Linux
+---
 
-Distribución
+## 🗂️ Estructura de directorios en Linux
 
-Basada en
+| Directorio     | Propósito                                                   |
+|----------------|-------------------------------------------------------------|
+| `/`            | Directorio raíz, contiene todo el sistema                   |
+| `/home`        | Archivos personales de los usuarios                         |
+| `/etc`         | Archivos de configuración del sistema                       |
+| `/bin`, `/sbin`| Comandos esenciales del sistema                             |
+| `/usr`         | Programas instalados y librerías compartidas                |
+| `/opt`         | Programas de terceros instalados manualmente                |
+| `/var`         | Datos variables (logs, correos, spool, etc.)                |
+| `/boot`        | Archivos necesarios para el arranque del sistema            |
+| `/dev`         | Archivos de dispositivos                                    |
+| `/proc`, `/sys`| Información del sistema y del kernel                        |
+| `/tmp`         | Archivos temporales                                         |
 
-Enfoque principal
+---
 
-Ubuntu
+## 🛠️ Usos comunes de Ubuntu
 
-Debian
+- 💻 Desarrollo de software (Python, C++, ROS 2, Web)
+- 🧪 Educación y simulación (Gazebo, MATLAB, R)
+- 🛠️ Administración de sistemas y redes (SSH, Docker, servidores web)
+- 📜 Automatización de tareas con Bash scripting
+- 🧰 Virtualización y contenedores (QEMU, VirtualBox, LXD)
+- 🎨 Entornos gráficos personalizados y ligeros
 
-General, escritorio y servidores
-
-Debian
-
-Independiente
-
-Estabilidad, servidores
-
-Fedora
-
-Red Hat
-
-Tecnologías recientes, desarrollo
-
-Arch Linux
-
-Independiente
-
-Usuarios avanzados
-
-Linux Mint
-
-Ubuntu
-
-Escritorio amigable
-
-Kali Linux
-
-Debian
-
-Seguridad y auditorías
-
-CentOS / Rocky
-
-Red Hat
-
-Empresas, servidores
-
-📂 Directorios principales del sistema
-
-Directorio
-
-Descripción
-
-/
-
-Directorio raíz del sistema
-
-/home
-
-Directorios personales de los usuarios
-
-/etc
-
-Archivos de configuración del sistema
-
-/usr
-
-Programas y bibliotecas del sistema
-
-/opt
-
-Software adicional instalado manualmente
-
-/var
-
-Archivos variables: logs, bases de datos, etc.
-
-/tmp
-
-Archivos temporales
-
-/dev
-
-Archivos que representan dispositivos
-
-/proc y /sys
-
-Información sobre el sistema y el kernel
-
-/boot
-
-Archivos necesarios para el arranque
-
-🛠️ Usos comunes de Ubuntu
-
-Desarrollo de software (Python, C++, ROS, Web)
-
-Automatización y scripting con Bash
-
-Simulación robótica (Gazebo, RViz, ROS 2)
-
-Entornos virtualizados (KVM, VirtualBox)
-
-Servidores web y de base de datos (Apache, MySQL)
-
-Educación, ciencia y centros de investigación
-
-
+---
 
 Para manejar de una forma más eficiente las distintas configuraciones de ROS2 es necesario conocer conceptos básicas de ubuntu, a continuación se detallan una serie de comandos e información que serán importantes para la continuación del curso.
 
