@@ -1,5 +1,135 @@
 # Ubuntu
 
+🐧 Introducción a Ubuntu y Linux
+
+Ubuntu es una distribución del sistema operativo GNU/Linux basada en Debian. Es ampliamente utilizada por su estabilidad, seguridad, facilidad de uso y una comunidad activa. Ubuntu es ideal tanto para usuarios nuevos como para desarrolladores y administradores de sistemas.
+
+🧱 Arquitectura de un sistema Linux
+
+Un sistema Linux está compuesto por:
+
+Kernel: El núcleo del sistema operativo. Administra el hardware y los recursos.
+
+Shell: Interfaz de línea de comandos para ejecutar instrucciones (bash, zsh).
+
+Sistema de archivos: Organización jerárquica donde todo es un archivo.
+
+Servicios/Daemons: Procesos que corren en segundo plano.
+
+Usuarios y Grupos: Controlan el acceso y la seguridad del sistema.
+
+🧩 Distribuciones populares de Linux
+
+Distribución
+
+Basada en
+
+Enfoque principal
+
+Ubuntu
+
+Debian
+
+General, escritorio y servidores
+
+Debian
+
+Independiente
+
+Estabilidad, servidores
+
+Fedora
+
+Red Hat
+
+Tecnologías recientes, desarrollo
+
+Arch Linux
+
+Independiente
+
+Usuarios avanzados
+
+Linux Mint
+
+Ubuntu
+
+Escritorio amigable
+
+Kali Linux
+
+Debian
+
+Seguridad y auditorías
+
+CentOS / Rocky
+
+Red Hat
+
+Empresas, servidores
+
+📂 Directorios principales del sistema
+
+Directorio
+
+Descripción
+
+/
+
+Directorio raíz del sistema
+
+/home
+
+Directorios personales de los usuarios
+
+/etc
+
+Archivos de configuración del sistema
+
+/usr
+
+Programas y bibliotecas del sistema
+
+/opt
+
+Software adicional instalado manualmente
+
+/var
+
+Archivos variables: logs, bases de datos, etc.
+
+/tmp
+
+Archivos temporales
+
+/dev
+
+Archivos que representan dispositivos
+
+/proc y /sys
+
+Información sobre el sistema y el kernel
+
+/boot
+
+Archivos necesarios para el arranque
+
+🛠️ Usos comunes de Ubuntu
+
+Desarrollo de software (Python, C++, ROS, Web)
+
+Automatización y scripting con Bash
+
+Simulación robótica (Gazebo, RViz, ROS 2)
+
+Entornos virtualizados (KVM, VirtualBox)
+
+Servidores web y de base de datos (Apache, MySQL)
+
+Educación, ciencia y centros de investigación
+
+
+
 Para manejar de una forma más eficiente las distintas configuraciones de ROS2 es necesario conocer conceptos básicas de ubuntu, a continuación se detallan una serie de comandos e información que serán importantes para la continuación del curso.
 
 La siguiente bibliogradía aborda el uso básico de linux 
@@ -7,6 +137,8 @@ La siguiente bibliogradía aborda el uso básico de linux
 [Linux Essentials](https://learning.lpi.org/es/learning-materials/010-160/)
 
 [Web Development Essentials](https://learning.lpi.org/es/learning-materials/030-100/)
+
+
 
 
 Entendiendo los comandos básicos de ubuntu.
