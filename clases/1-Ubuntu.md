@@ -8,11 +8,20 @@ La siguiente bibliogradía aborda el uso básico de linux
 
 [Web Development Essentials](https://learning.lpi.org/es/learning-materials/030-100/)
 
+
 Entendiendo los comandos básicos de ubuntu.
+
+En general los comandos en ubuntu siguen la siguiente extructura:
+```
+comando (opciones) (argumentos)
+```
+
 ## Comandos básicos de Linux
 Aquí algunos comandos fundamentales que debes dominar:
+1. Dominio de la consola
+* echo: Escribe un mensaje para sí mismo.
 
-1. Gestión de archivos y directorios:
+2. Gestion de arhivos y directorios
 * ls: Lista archivos y directorios.
 ```
 ls -l # muestra una lista detallada con permisos, propietarios, tamaño, etc.
