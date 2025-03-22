@@ -73,18 +73,19 @@ En general los comandos en ubuntu siguen la siguiente extructura:
 ```
 comando (opciones) (argumentos)
 ```
+a continuación, se describen algunos atajos que facilitan el uso de la consola.
 
 ## Comandos básicos de Linux
 Aquí algunos comandos fundamentales que debes dominar:
-1. Dominio de la consola
+1. Comandos generales
 ```
-history # Guarda los ´ultimos 1000 comandos ejecutados.
+history # Guarda los últimos 1000 comandos ejecutados.
 ```
 se puede ejercutar el comando del listado usando !
 ```
 !n
 ```
-utiliznado el comando | grep podemos realizar una busqueda de palabras claves en el historial de comandos
+utilizando el comando | grep podemos realizar una busqueda de palabras claves en el historial de comandos
 ```
 history | grep palabra_clave
 ```
