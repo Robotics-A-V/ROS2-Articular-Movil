@@ -1,12 +1,12 @@
 # 🐧 Introducción a Ubuntu y Linux
 
-## 📦 ¿Qué es Ubuntu?
+##  ¿Qué es Ubuntu?
 
 **Ubuntu** es una distribución del sistema operativo **GNU/Linux** basada en **Debian**. Es una de las distribuciones más populares por su facilidad de uso, estabilidad y fuerte comunidad. Se utiliza ampliamente en servidores, entornos de desarrollo, sistemas embebidos, ciencia y escritorios personales.
 
 ---
 
-## 🧱 Arquitectura básica de un sistema Linux
+##  Arquitectura básica de un sistema Linux
 
 Un sistema Linux se compone de:
 
@@ -18,7 +18,7 @@ Un sistema Linux se compone de:
 
 ---
 
-## 🧩 Principales distribuciones de Linux
+##  Principales distribuciones de Linux
 
 | Distribución       | Basada en    | Enfoque principal                     |
 |--------------------|--------------|----------------------------------------|
@@ -32,7 +32,7 @@ Un sistema Linux se compone de:
 
 ---
 
-## 🗂️ Estructura de directorios en Linux
+##  Estructura de directorios en Linux
 
 | Directorio     | Propósito                                                   |
 |----------------|-------------------------------------------------------------|
@@ -50,29 +50,24 @@ Un sistema Linux se compone de:
 
 ---
 
-## 🛠️ Usos comunes de Ubuntu
+## Usos comunes de Ubuntu
 
-- 💻 Desarrollo de software (Python, C++, ROS 2, Web)
-- 🧪 Educación y simulación (Gazebo, MATLAB, R)
-- 🛠️ Administración de sistemas y redes (SSH, Docker, servidores web)
-- 📜 Automatización de tareas con Bash scripting
-- 🧰 Virtualización y contenedores (QEMU, VirtualBox, LXD)
-- 🎨 Entornos gráficos personalizados y ligeros
+- Desarrollo de software (Python, C++, ROS 2, Web)
+- Educación y simulación (Gazebo, MATLAB, R)
+- Administración de sistemas y redes (SSH, Docker, servidores web)
+- Automatización de tareas con Bash scripting
+- Virtualización y contenedores (QEMU, VirtualBox, LXD)
+- Entornos gráficos personalizados y ligeros
 
 ---
 
-Para manejar de una forma más eficiente las distintas configuraciones de ROS2 es necesario conocer conceptos básicas de ubuntu, a continuación se detallan una serie de comandos e información que serán importantes para la continuación del curso.
-
-La siguiente bibliogradía aborda el uso básico de linux 
+La siguiente bibliogradía aborda más a detalle el uso básico de linux 
 
 [Linux Essentials](https://learning.lpi.org/es/learning-materials/010-160/)
 
 [Web Development Essentials](https://learning.lpi.org/es/learning-materials/030-100/)
 
-
-
-
-Entendiendo los comandos básicos de ubuntu.
+A continuación se detallan una serie de comandos e información que serán importantes para la continuación del curso.
 
 En general los comandos en ubuntu siguen la siguiente extructura:
 ```
