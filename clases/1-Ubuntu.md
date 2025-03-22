@@ -77,8 +77,17 @@ comando (opciones) (argumentos)
 ## Comandos básicos de Linux
 Aquí algunos comandos fundamentales que debes dominar:
 1. Dominio de la consola
-* echo: Escribe un mensaje para sí mismo.
-
+```
+history # Guarda los ´ultimos 1000 comandos ejecutados.
+```
+se puede ejercutar el comando del listado usando !
+```
+!n
+```
+utiliznado el comando | grep podemos realizar una busqueda de palabras claves en el historial de comandos
+```
+history | grep palabra_clave
+```
 2. Gestion de arhivos y directorios
 * ls: Lista archivos y directorios.
 ```
