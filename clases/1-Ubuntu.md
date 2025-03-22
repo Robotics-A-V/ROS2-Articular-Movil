@@ -73,7 +73,18 @@ En general los comandos en ubuntu siguen la siguiente extructura:
 ```
 comando (opciones) (argumentos)
 ```
-a continuación, se describen algunos atajos que facilitan el uso de la consola.
+y el uso de la consola se puede facilitat usando los siguientes atajos:
+
+<backspace>, <Ctrl-h> Borrar un caracter hacia la izquierda.
+<Ctrl-c> Terminar la ejecución de un comando y regresar a shell.
+<Ctrl-u> Borra toda la línea.
+<Ctrl-a> Ir al inicio de la línea.
+<Ctrl-e> Ir al final de la línea.
+<tab> Completa el comando o el nombre del archivo.
+<Flecha arriba> Anterior comando.
+<Flecha abajo> Siguiente comando.
+<Shift page-up> Presenta la salida del comando anterior.
+<Ctrl-r> Busca un comando dentro del history
 
 ## Comandos básicos de Linux
 Aquí algunos comandos fundamentales que debes dominar:
