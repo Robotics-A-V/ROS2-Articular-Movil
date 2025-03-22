@@ -75,6 +75,7 @@ comando (opciones) (argumentos)
 ```
 y el uso de la consola se puede facilitat usando los siguientes atajos:
 
+---
 <backspace>, <Ctrl-h> Borrar un caracter hacia la izquierda.
 <Ctrl-c> Terminar la ejecución de un comando y regresar a shell.
 <Ctrl-u> Borra toda la línea.
@@ -85,6 +86,7 @@ y el uso de la consola se puede facilitat usando los siguientes atajos:
 <Flecha abajo> Siguiente comando.
 <Shift page-up> Presenta la salida del comando anterior.
 <Ctrl-r> Busca un comando dentro del history
+---
 
 ## Comandos básicos de Linux
 Aquí algunos comandos fundamentales que debes dominar:
