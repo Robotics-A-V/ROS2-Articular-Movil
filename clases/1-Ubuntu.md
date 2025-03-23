@@ -90,7 +90,7 @@ y el uso de la consola se puede facilitat usando los siguientes atajos:
 
 ## Comandos básicos de Linux
 Aquí algunos comandos fundamentales que debes dominar:
-1. Comandos generales
+# Comandos generales
 ```
 history # Guarda los últimos 1000 comandos ejecutados.
 ```
@@ -102,6 +102,47 @@ utilizando el comando | grep podemos realizar una busqueda de palabras claves en
 ```
 history | grep palabra_clave
 ```
+```
+alias palabra corta=’comando o palabras a reemplazar’ # Remplazar una serie de comandas por una palabra
+```
+
+Asterisco *
+se usa para realizar una busqueda remplazando a cualquier letra.
+
+```
+ls dev/tty*
+```
+
+#Uso de comillas 
+ * Comillas simples ' ':
+
+Todo lo que pongas dentro se interpreta literalmente. No se evalúan variables ni comandos.
+```
+echo 'Hola $USER'
+```
+Resultado: Hola $USER
+
+* Comillas dobles " ":
+
+Permiten que se evalúen variables y comandos entre comillas. Son más flexibles que las simples.
+```
+echo "Hola $USER"
+```
+Resultado: Hola seguido del nombre de tu usuario
+
+* Comillas invertidas ` ` (backticks):
+  
+Ejecutan un comando dentro de otro comando. Se llama expansión de comandos.
+```
+echo "Hoy es: `date`"
+```
+Resultado: Hoy es: (y la fecha actual)
+
+Hoy en día se recomienda usar $(comando) en lugar de backticks porque es más legible:
+```
+echo "Hoy es: $(date)"
+```
+
 2. Gestion de arhivos y directorios
 * ls: Lista archivos y directorios.
 ```
